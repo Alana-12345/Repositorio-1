@@ -1,9 +1,11 @@
 # 1. Intento inicial de creación de cuenta (Simulación de error y solución)
 echo "Error detectado: El correo anterior ya estaba vinculado o bloqueado."
+
 echo "Solución: Creando nueva cuenta de GitHub con correo alternativo..."
 
 # 2. Configuración de identidad local (Post-creación de cuenta exitosa)
 git config --global user.name "TuNombreUsuario"
+
 git config --global user.email "tu-nuevo-email@ejemplo.com"
 
 # 3. Instalación de Cursor IDE (Comando para macOS vía Brew como ejemplo)
