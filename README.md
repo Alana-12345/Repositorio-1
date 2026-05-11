@@ -14,11 +14,17 @@ brew install --cask cursor
 
 # 4. Inicialización del Repositorio
 mkdir mi-nuevo-proyecto
+
 cd mi-nuevo-proyecto
+
 git init
+
 touch README.md
+
 echo "# Mi Proyecto con Cursor y Claude" >> README.md
+
 git add .
+
 git commit -m "Initial commit: Configuración de entorno"
 
 # 5. Instrucción para Claude Code sobre extensiones:
